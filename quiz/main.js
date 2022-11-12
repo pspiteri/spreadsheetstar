@@ -32,14 +32,14 @@ document.addEventListener('alpine:init', () => {
         */
         scoreVerbiageArray: [
             ['NONE', 'NONE'],
-            ['Beginner', 'There is much for you to learn, Padawan.'],
-            ['Basic', 'You can do some simple things, but there is so much more.'],
-            ['Developing', 'You\'re only scratching the surface. You can do more.'],
-            ['OK', 'Not knowing VLOOKUP is notable, but you know IF so you can pick things up quickly.'],
-            ['Good', 'You’re good, but you need to know many other useful techniques.'],
-            ['Adept', 'You have skills, but your missing out on some important knowledge.'],
-            ['Expert', 'Your a star. There is nothing else for you to learn. Just kidding.'],
-            ['Ace', 'The force is strong in this one. But you can still improve.'],
+            ['2/10 - Beginner', 'There is much for you to learn, Padawan.'],
+            ['3/10 - Basic', 'You can do some simple things, but there is so much more.'],
+            ['4/10 - Developing', 'You\'re only scratching the surface. You can do more.'],
+            ['5/10 - OK', 'Not knowing VLOOKUP is notable, but you know IF so you can pick things up quickly.'],
+            ['6/10 - Good', 'You’re good, but you need to know many other useful techniques.'],
+            ['7/10 - Adept', 'You have skills, but your missing out on some important knowledge.'],
+            ['8/10 - Expert', 'Your a star. There is nothing else for you to learn. Just kidding.'],
+            ['9/10 - Ace', 'The force is strong in this one. But you can still improve.'],
             ['test09', 'test09']
         ],
         yes() {
