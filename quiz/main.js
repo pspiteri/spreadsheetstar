@@ -35,7 +35,7 @@ document.addEventListener('alpine:init', () => {
             ['Beginner', 'There is much for you to learn, Padawan.'],
             ['Basic', 'You can do some simple things, but there is so much more.'],
             ['Developing', 'You\'re only scratching the surface. You can do more.'],
-            ['OK', 'You’re OK. Not knowing VLOOKUP is notable, but you know IF so you can pick things up quickly.'],
+            ['OK', 'Not knowing VLOOKUP is notable, but you know IF so you can pick things up quickly.'],
             ['Good', 'You’re good, but you need to know many other useful techniques.'],
             ['Adept', 'You have skills, but your missing out on some important knowledge.'],
             ['Expert', 'Your a star. There is nothing else for you to learn. Just kidding.'],
