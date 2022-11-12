@@ -33,7 +33,7 @@ document.addEventListener('alpine:init', () => {
         scoreVerbiageArray: [
             ['NONE', 'NONE'],
             ['Beginner', 'There is much for you to learn, Padawan.'],
-            ['Basic', 'You can do some simple things, but you can do much, much more.'],
+            ['Basic', 'You can do some simple things, but there is so much more.'],
             ['Developing', 'You\'re only scratching the surface. You can do more.'],
             ['OK', 'You’re OK. Not knowing VLOOKUP is notable and there are valuable techniques you\'re missing out on.'],
             ['Good', 'You’re good, but you need to know some other useful techniques'],
