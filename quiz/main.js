@@ -17,7 +17,7 @@ document.addEventListener('alpine:init', () => {
             'test09',
         ],
         scoreVerbiageArray: [
-            ['Welcome', 'This is a super-rapid tool to roughly gauge your Excel skills. It is not meant to be a critique or a firm statement of your capabilities. Rather, it is a guide that may be useful for self-assessment and development.'],
+            ['Welcome', 'This is a super-rapid tool to roughly gauge your Excel skills. It is not meant to be a critique or comprehensive assessment of your capabilities. Rather, it is a guide that may be useful for self-assessment and development.'],
             ['2/10 - Beginner', 'There is much for you to learn, Padawan.'],
             ['3/10 - Basic', 'You can do some simple things, but there is so much more.'],
             ['4/10 - Developing', 'You\'re only scratching the surface. You can do more.'],
