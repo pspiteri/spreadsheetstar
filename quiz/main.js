@@ -1,7 +1,7 @@
 
 document.addEventListener('alpine:init', () => {
     Alpine.store('aStep', {
-        value: 5,
+        value: 0,
         score: 0,
         response: null,
         verbiageArray: [
@@ -16,22 +16,8 @@ document.addEventListener('alpine:init', () => {
             'Do you know the context in which Excel uses "UBound"? If you aren\'t certain click No.',
             'test09',
         ],
-        /*
-        scoreHeaderArray: [
-            'NONE',
-            'Beginner',
-            'Basic',
-            'Developing',
-            'OK',
-            'Good',
-            'Above Average',
-            'Expert',
-            'Expert, with VBA',
-            'test09',
-        ],
-        */
         scoreVerbiageArray: [
-            ['NONE', 'NONE'],
+            ['Welcome', 'This is a super-rapid tool to roughly gauge your Excel skills. It is not meant to be a critique or a firm statement of your capabilities. Rather, it is a guide that may be useful for self-assessment and development.'],
             ['2/10 - Beginner', 'There is much for you to learn, Padawan.'],
             ['3/10 - Basic', 'You can do some simple things, but there is so much more.'],
             ['4/10 - Developing', 'You\'re only scratching the surface. You can do more.'],
@@ -170,6 +156,13 @@ document.addEventListener('alpine:init', () => {
             }
         },
         headerVisability() {
+            if (this.value == 99 || this.value == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        registerVisability() {
             if (this.value == 99) {
                 return true;
             } else {
@@ -177,6 +170,10 @@ document.addEventListener('alpine:init', () => {
             }
         },
         inverseHeaderVisability() {
+            // if (this.value == 0) {
+            // return false;
+            // }
+
             return !this.headerVisability();
         },
         startOverButtonVisability() {

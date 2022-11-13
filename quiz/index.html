@@ -115,12 +115,12 @@
                         type="button" class="btn btn-danger btn-lg">No</button>
                     <button x-data x-show="$store.aStep.startOverButtonVisability()" @click="$store.aStep.reset()"
                         type="button" class="btn btn-outline-secondary btn-lg">Start
-                        over</button>
+                        <span x-data x-show="$store.aStep.inverseHeaderVisability()">over</span></button>
                 </div>
 
             </div>
         </div>
-        <div class="px-4 py-1 col-md-6 mx-auto text-center" x-data x-show="$store.aStep.headerVisability()">
+        <div class="px-4 py-1 col-md-6 mx-auto text-center" x-data x-show="$store.aStep.registerVisability()">
             <hr class="mt-0">
             <p>You can level up. Save time and improve results in a way that people will
                 notice.
